@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(170, 170, 170, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cx_azul{
+    display: flex;
+    background-color: rgba(15, 40, 80, 0.95);
+    width: 100%;
+    height: 85px;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}    
+.cx_rodape{
+    background-color: #0f2850; 
+    color: rgba(255, 255, 255, 0.85); 
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); 
+    position: absolute;
+    bottom: -700px;
+    width: 100%;
+}   
+.nome_projeto{
+    color: rgb(250, 250, 250);
+}
+.titulo_pagina{
+    padding: 15px 15px 0px 0px;
+    color: rgba(250, 250, 250, 0.8);
+}
+#cx_topo_logo{
+    margin: 5px 0px 0px 0px;
+}
+#cx_topo_menu_navegacao{
+    margin: 30px 0px 0px 380px;
+    padding: 0px 125px 0px 0px;
+    display: flex;
+    color: rgba(250, 250, 250, 0.8);
+}
+
+a{
+    color: rgba(250, 250, 250, 0.8);
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+    border: 1px;
+}
+th{
+    background-color: aliceblue;
+}
+#h1_topo{
+    text-align: left;
+}
+#form_contato{
+    width: 350px;
+    height: 300px;
+    margin: 80px 30px 30px 0px;
+    padding: 40px 0px 0px 160px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(230, 238, 245, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.cx_contato{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.cx_botao{
+    margin: 100px 10px 0px 0px;
+}
+.cx_botao:hover{
+    transition: 0.5;
+    color: rgba(80, 160, 240, 0.8);
+}
+.cx_botao:active{
+    color: rgba(20, 90, 160, 0.8);
+    transition: 0.5;
+}
+.cx_imagens{
+    margin: 50px 0px 0px 100px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(230, 238, 245, 0.8);
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+} 
+#cx_imagem_gerada{
+    margin: 50px 0px 0px 0px;
+    width: 480px;
+    height: 200px;
+    background-color: rgba(230, 238, 245, 0.8);
+    padding: 25px 25px 25px 0px;
+    border-radius: 10px 10px 10px 10px;
+} 
+.img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#img_gerada{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 140px;
+}
+.cx_conteudo{
+    margin: 100px 0px 0px 500px;
+}
+#cx_decricao{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;       
+    vertical-align: top;    
+    overflow-wrap: break-word;
+    word-wrap: break-word;  
+    white-space: pre-wrap;
+}
+#texarea{
+    text-align: left;       
+    vertical-align: top;    
+    overflow-wrap: break-word;
+    word-wrap: break-word;  
+    white-space: pre-wrap;
+}
+#botao_envio{
+    color: rgba(250, 250, 250, 0.8);
+    background-color: rgb(0, 51, 102);
+    width: 300px;
+    height: 27px;
+    margin: 10px 0px 20px 95px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#botao_envio:hover{
+    transition: 0.5;
+    color: rgba(80, 160, 240, 0.8);
+}
+#botao_envio:active{
+    color: rgba(20, 90, 160, 0.8);
+    transition: 0.5;
+}
+#cx_mensagem{
+    width: 150px;
+    height: 55px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;       
+    vertical-align: top;    
+    overflow-wrap: break-word;
+    word-wrap: break-word;  
+    white-space: pre-wrap;
+}
+#cx_enviar_contato{
+    color: rgba(230, 238, 245, 0.8);
+    font-weight: 50px;
+    background-color: rgb(0, 51, 102);
+    width: 150px;
+    height: 25px;
+    margin: 0px 0px 0px 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+#cx_enviar_contato:hover{
+    transition: 0.5;
+    color: rgba(80, 160, 240, 0.8);
+}
+#cx_enviar_contato:active{
+    color: rgba(20, 90, 160, 0.8);
+    transition: 0.5;
+}
+.cx_cartao{
+    width: 350px;
+    height: 500px;
+    margin: 60px 30px 30px 60px;
+    background-color: rgba(230, 238, 245, 0.8);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.img_cartao{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px 10px 15px 15px;
+}
+#botao_visualizar{
+    color: rgba(230, 238, 245, 0.8);
+    font-weight: 50px;
+    background-color: rgb(0, 51, 102);
+    width: 150px;
+    height: 30px;
+    margin: 30px 0px 0px 85px;
+    border-radius: 10px 10px 10px 10px;
+}
+#botao_visualizar:hover{
+    transition: 0.5;
+    color: rgba(80, 160, 240, 0.8);
+}
+#botao_visualizar:active{
+    color: rgba(20, 90, 160, 0.8);
+    transition: 0.5;
+}
+#cartoes_galeria{
+    display: flex;
+    flex-wrap: wrap;
+}

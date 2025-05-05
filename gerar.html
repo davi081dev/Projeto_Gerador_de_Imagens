@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Gerador de Imagens</title>
+</head>
+<body>
+    <!-- Div da pagina completa -->
+    <div>
+        <!-- Div da caixa do topo -->
+        <div class="cx_azul"> 
+            <!-- Div da caixa topo com título  -->
+            <div id="cx_topo_logo">
+                <header class="titulo_pagina">Gerador de Imagens</header>
+                <a href="index.html"><h2>Projeto Gerador de Imagens IA</h2></a> 
+            </div> 
+
+            <!-- Div da caixa topo para acesso a outras páginas -->
+            <div id="cx_topo_menu_navegacao">
+                <tr>
+                    <ol><strong><a href="galeria.html" class="cx_botao">Galeria do projeto</a></strong></ol>
+                    <ol><strong><a href="sobre.html" class="cx_botao">Sobre o projeto</a></strong></ol>
+                    <ol><strong><a href="contato.html" class="cx_botao">Contatos de projeto</a></strong></ol>
+                </tr>
+            </div>   
+        </div>
+    
+        <!-- Div do conteúdo da página -->
+        <div class="cx_conteudo">
+            <!-- Div da descricao da imagem -->
+            <div>
+                <!-- Form para dizer a descricao da imagem -->
+                <form action="#">
+                    <h2 style="color: rgba(15, 40, 80, 0.95); margin: 0px 0px 5px">Descrição da Imagem:</h2>
+                    <textarea name="cx_descricao" id="cx_decricao" placeholder="  Digite aqui a descrição da imagem que deseja:"></textarea> <br>
+                    <button type="submit" id="botao_envio">Envio</button>
+                </form>
+            </div>
+    
+            <!-- Div da caixa da imagem -->
+            <h2 style="color: rgba(15, 40, 80, 0.95); margin: 20px 0px -40px">Imagem gerada:</h2>
+            <div id="cx_imagem_gerada">
+                <p><img src="https://picsum.photos/200/300" alt="" id="img_gerada"></p>
+            </div>
+        </div>
+        <!-- Fim div do conteúdo -->
+        <div class="cx_rodape">
+            <p> Copyright@2025</p>
+         </div>
+    </div>
+    <!-- Fim div principal -->
+</body>
+</html>
