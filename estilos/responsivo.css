@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .cabecalho { flex-direction: column; gap: 1rem; }
+    .conteudo-principal-gerador { padding: 1rem; }
+    .card-gerador { padding: 1.5rem; }
+}

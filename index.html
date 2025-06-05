@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/responsivo.css">
     <title>Página Inicial</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
             <!-- Div da caixa topo com título  -->
             <div id="cx_topo_logo">
                 <header class="titulo_pagina">Página Inicial</header>
-                <h2 class="nome_projeto">Projeto Gerador de Imagens IA</h2>
+                <h2 class="nome_projeto">Gera IA!</h2>
             </div>
 
             <!-- Div da caixa topo para acesso a outras páginas -->
@@ -27,35 +28,29 @@
                 </tr>
             </div>
         </div>
+        
+        <div id="cx_conteudo00">
+            <p id="img_ia_exemplo"></p>
+            <p style="font-size: 35px;font-weight:600; margin:100px 0 0 35px">⬅️Imagem gerada por IA</p>
+        </div>
 
         <!-- Div do conteúdo da página -->
         <div class="cx_conteudo">
-            <h3>Olá, a intenção deste projeto é criar um sistema de geração de Imagens</h3>
-            <!-- Div da caixa da imagem -->
-            <div class="cx_imagens">
-                <p><img src="https://picsum.photos/200/300" alt="" class="img"></p>
-            </div>
-            
-            <!-- Div da tabela -->
-            <div>
-                <table>
-                    <tr>
-                        <th><strong>Funcionalidade</strong></th>
-                        <th><strong>Descrição</strong></th>
-                    </tr>
-                    <tr>
-                        <th>Lorem ipsum</th>
-                        <th>Lorem ipsum</th>
-                    </tr>
-                </table>
-            </div>
-        </div>
+            <h1 style="font-size: 30px;font-weight:600; margin-left:15px"><strong>Gerador de Imagens com Inteligência Artificial</strong></h1>
+            <h2 style="font-size: 25px;font-weight:400;"><strong>Crie imagens únicas com apenas uma descrição em texto.</strong></h2>
+            <p><img src="assets/img_exemplo.jpg" id="img_inicial"></p>
+            <h3 style="font-size: 30px;font-weight:400;margin:25px 0px 0px 100px"><strong>Deseja experimentar? Veja aqui:</strong></h3>
+            <button id="botao_inicial"><a href="gerar.html">Comece a criar Agora</a></button>
+        </div> 
         <!-- Fim div do conteúdo -->
 
+
+        
+
         <!-- Div rodapé -->
-         <div class="cx_rodape">
+         <footer class="cx_rodape">
             <p> Copyright@2025</p>
-         </div>
+         </footer>
     </div>
     <!-- Fim div principal -->
 </body>
